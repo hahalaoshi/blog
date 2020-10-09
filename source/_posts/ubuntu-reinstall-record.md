@@ -215,5 +215,6 @@ sudo apt-get install device-tree-compiler
 sudo apt-get install bison
 #flex
 sudo apt-get install flex
+#linux kernel镜像站点
+https://mirror.tuna.tsinghua.edu.cn/kernel/
 ```
-
