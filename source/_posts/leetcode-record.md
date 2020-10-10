@@ -57,7 +57,7 @@ typora-root-url: ../../source
 | 153. Find Minimum in Rotated Sorted Array                    | 038   |            |          |       |            |
 | 154. Find Minimum in Rotated Sorted Array II                 | 039   |            |          |       |            |
 | [162. Find Peak Element](https://leetcode-cn.com/problems/find-peak-element/) |       | 2020.04.18 | C++      | 1     | 二分查找   |
-| [174. Dungeon Game](https://leetcode-cn.com/problems/dungeon-game/) | 006   |            |          |       |            |
+| [174. Dungeon Game](https://leetcode-cn.com/problems/dungeon-game/) | 006   | 2020.10.10 | C        | 1     | DP         |
 | [200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | 065   | 2020.03.18 | C++      | 2     | BFS        |
 | 204. Count Primes                                            | 042   |            |          |       |            |
 | 207. Course Schedule                                         | 093   |            |          |       |            |
