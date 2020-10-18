@@ -7,14 +7,6 @@ tags:
 typora-root-url: ../../source
 ---
 
-
-
-https://blog.csdn.net/jiange_zh/article/details/50198097
-
-
-
-
-
 这篇文章主要记录一些刷leetcode中用的一些刷题技巧。
 
 # C
@@ -25,12 +17,33 @@ https://blog.csdn.net/jiange_zh/article/details/50198097
 
    重要的一点是，如果用0x3f3f3f3f来表示最大值，那么我们就可以通过memset函数来给数组所有元素赋初值为0x3f3f3f3f。
 
-   
-
    具体可以参考这篇文章：https://blog.csdn.net/jiange_zh/article/details/50198097
 
-2. 
+2. 二维数组与二级指针 （待补充）
+
+   ```c
+   // 
+       int input[2][2] = {{1,2},{3,4}};
+       int **p =NULL;
+       p = (int**)malloc(sizeof(int *) * 2);
+       for (int i = 0; i < 2; i++) {
+           p[i] = input[i];
+       }
+   ```
+
+   ```c
+       int **result = (int**)malloc(sizeof(int *) * r);
+       for (int i = 0; i < r; i++) {
+           result[i] = (int*)malloc(sizeof(int) * c);
+       }
+   ```
+
+   
 
 3. 
+
+4. 
+
+5. 
 
 # C++
